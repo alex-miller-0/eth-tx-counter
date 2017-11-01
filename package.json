@@ -1,0 +1,29 @@
+{
+  "name": "eth-tx-counter",
+  "version": "1.0.0",
+  "description": "A script to search for transactions to an Ethereum address over time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-miller-0/eth-tx-counter.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Contract",
+    "Address"
+  ],
+  "author": "Alex Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-miller-0/eth-tx-counter/issues"
+  },
+  "homepage": "https://github.com/alex-miller-0/eth-tx-counter#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-flags": "^0.1.9",
+    "web3": "^1.0.0-beta.24"
+  }
+}
